@@ -1,0 +1,29 @@
+---
+BGP-Down:
+  commands:
+    - show ip bgp all
+    - show ip route bgp
+    - show ip bgp neighbors
+    - show run | sec bgp
+    - show ip interface brief
+    - show cdp neighbors
+    - show ip arp
+    - show ip route
+    - show ip protocols
+    - show ip access-lists
+    - show running-config
+    - show logging
+    - show archive log config all | exclude enable
+
+EIGRP-Peering:
+  commands:
+    - show logging
+    - show ip interface bri
+    - show cdp neighbors detail
+    - show ip route eigrp
+    - show ip eigrp topology active
+    - show running-configuration
+    - show ip arp
+    - show ip protocols
+    - show ip access-lists
+    - show archive log config all | exclude enable

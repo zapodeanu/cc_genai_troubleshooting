@@ -1,0 +1,19 @@
+requests
+urllib3
+catalystcentersdk
+python-dotenv
+PyYAML
+
+chromadb
+langchain
+unstructured
+unstructured[csv]
+sentence-transformers
+openai
+langchain-openai
+langchain-anthropic
+langchain_community
+langchain-core
+langchain_chroma
+langchain_huggingface
+# ollama
