@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-Copyright (c) 2025 Cisco and/or its affiliates.
+Copyright (c) 2026 Cisco and/or its affiliates.
 This software is licensed to you under the terms of the Cisco Sample
 Code License, Version 1.1 (the "License"). You may obtain a copy of the
 License at
@@ -17,7 +17,7 @@ or implied.
 __author__ = "Gabriel Zapodeanu TME, ENB"
 __email__ = "gzapodea@cisco.com"
 __version__ = "0.1.0"
-__copyright__ = "Copyright (c) 2025 Cisco and/or its affiliates."
+__copyright__ = "Copyright (c) 2026 Cisco and/or its affiliates."
 __license__ = "Cisco Sample Code License, Version 1.1"
 
 import os
@@ -59,7 +59,7 @@ def main():
     """
     A query app for network troubleshooting, powered by LangChain, that provides a
     conversational experience. It retrieves proximity matches from Chroma and generates
-    responses using OpenAI's GPT-4o.
+    responses using OpenAI's gtp-5.2.
     """
 
     # Chroma DB server details and connection
@@ -78,7 +78,7 @@ def main():
     # Define retriever from Chroma DB and number of proximity matches
     retriever = chroma_db.as_retriever(search_kwargs={"k":8})
 
-    # Define the LLM used - OpenAI, model 'gpt-4o'
+    # Define the LLM used - OpenAI, model 'gtp-5.2'
     llm = ChatOpenAI(model_name=OPENAI_MODEL, temperature=1)
 
     # Create the history prompt

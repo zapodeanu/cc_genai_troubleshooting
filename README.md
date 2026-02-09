@@ -12,8 +12,8 @@ A second app will allow to erase the vector database and/or create a new vector 
 Create embeddings and save them to local or server vector database.
 
 - Client App:
-Query and answer: Similarity searches using GPT-4o
-Conversational: GPT-4o and Anthropic Sonnet 4
+Query and answer: Similarity searches using gtp-5.2
+Conversational: gtp-5.2 and Anthropic Sonnet 4
 
 Sample Output:
 
